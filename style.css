@@ -1,0 +1,381 @@
+
+body{
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 16px;
+}
+
+
+
+.offer{
+    position: fixed;
+    top: 0;
+    height: 52px;
+    width: 100%;
+    background-color: rgb(243, 243, 243);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    z-index: 9;
+
+
+}
+.Drive{
+    position: sticky;
+    bottom: 0;
+    height: 52px;
+    background-color: rgb(243, 243, 243);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    border-radius: 6px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); 
+
+}
+
+.navbar{
+    margin-top: 52px;
+    height: 26px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 46px;
+}
+
+
+.tds-icon-logo-wordmark{
+    width: 123px;
+    color: white;
+
+}
+
+
+.nav-links{
+    height: 40px;
+    padding-right: 70px;
+    margin-bottom: 21px;
+}
+
+.nav-links ul{
+
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    list-style: none;
+}
+
+
+.nav-links li a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+.nav-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 18px;
+    padding-right: 10px;
+    padding-bottom: 14px;
+}
+
+.nav-icons a{
+    color: white;
+    font-size: 20px;
+}
+.tds-icon-logo-cybertruck{
+    padding-top: 80px;
+    color: white;
+    width: 300px;
+}
+
+.pricing1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pricing1 h1{
+    font-size: 50px;
+    font-weight: 580;
+    color: white;
+}
+
+.pricing2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pricing2 h1{
+    font-size: 22px;
+    font-weight: 580;
+    color: white;
+}
+
+.pricing3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.price3-title{
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pricing3 div h1{
+    margin: 0;
+    font-size: 65px;
+    font-weight: bold;
+    color: white;
+
+}
+.pricing3 div h3{
+    color: white;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    text-decoration-thickness: 1px;
+    margin: 0;
+    font-size: 40px;
+}
+.pricing3 div p{
+    margin: 0;
+    color: white;
+}
+.pricing4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.price4-title{
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pricing4 div h1{
+    margin: 0;
+    font-size: 65px;
+    font-weight: bold;
+    color: white;
+
+}
+.pricing4 div h3{
+    color: white;
+    
+    margin: 0;
+    font-size: 40px;
+}
+.pricing4 div p{
+    margin: 0;
+    color: white;
+    text-underline-offset: 3px;
+    text-decoration-thickness: 1px;
+}
+
+.order-buttons1 {
+
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.order-buttons1 button {
+    background-color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 15px;
+    border-radius: 5px;
+    width: 240px;
+    cursor: pointer;
+}
+.order-buttons {
+    display: flex;
+    gap: 20px;
+    position: relative;
+    top: 376px;
+    left: -18px;
+}
+
+.order-buttons button {
+    background-color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 15px;
+    border-radius: 5px;
+    width: 240px;
+    cursor: pointer;
+}
+
+.order-buttons button:nth-child(1){
+    background-color: #3E6AE1 ;
+    color: white;
+}
+.order-buttons2 {
+    display: flex;
+    gap: 20px;
+    position: relative;
+    top: 376px;
+    left: -18px;
+}
+
+.order-buttons2 button {
+    color: #A2A3A5;
+    background-color: rgb(22, 22, 22);
+    border: 1px solid #A2A3A5;
+    padding: 10px 20px;
+    font-size: 15px;
+    width: 240px;
+    cursor: pointer;
+}
+
+
+
+.image1{
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/Homepage-APR-Promo-Hero-Desktop-v3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.image2{
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/Homepage-Cybertruck-Desktop-v3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.image3{
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/Homepage-Model-Y-Desktop-US-v2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.image4{
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/Homepage-Model-3-Desktop-US.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.image5{
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/Homepage-Model-X-Desktop-US.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.image6{
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/Homepage-Model-S-Desktop-US.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.image7{
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-SolarPanels-01-Desktop);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.image8{
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/Homepage-SolarRoof-Desktop-US.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.image9{
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/Homepage-Powerwall-Desktop-US.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.image10{
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/Homepage-Accessories-Desktop-US.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.footer{
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(243, 243, 243);
+    padding: 20px 380px;
+    padding-top: 50px;
+}
+
+
+.footer div ul{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+
+}
+.footer p{
+    text-align: center;
+
+    font-size: 12.5px;
+    color: #5C5E62;
+    line-height: 1.6;
+    
+
+    
+}
+.footer div ul li{
+    color: #5C5E62;
+    font-size: 14px;
+    
+}
+
+
+sup {
+    font-size: 0.5em; /* Makes the superscript text 60% of the base text size */
+}
+a{
+    color: #5C5E62;
+}
+
+
+.drive{
+    z-index: 8;
+    height: 52px;
+    display: flex;
+    justify-content: space-between;
+    padding: 2px 600px;
+    bottom: 0;
+}
